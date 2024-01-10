@@ -20,6 +20,13 @@
     }
 }
 
+@media (max-width:612px) {
+    .main__text{
+        width: 320px;
+        font-size: 36px;
+    }
+}
+
 @media (max-width: 800px) {
     .burger{
         display: block;
