@@ -4,15 +4,15 @@
     }
 }
 
-@media (max-width:900px) {
-    .main__image{
-        width: 700px;
-    }
-}
-
 @media (max-width:1000px) {
     .main__image{
         width: 900px;
+    }
+}
+
+@media (max-width:900px) {
+    .main__image{
+        width: 700px;
     }
 }
 
