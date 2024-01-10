@@ -1,0 +1,31 @@
+@media (max-width:576px){
+
+    body{
+        --container-width: 576px;
+        --text-width: 320px;
+    }
+
+    .content__text-wrapper{
+        max-width: var(--text-width);
+    }
+
+    .title{
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .item{
+        max-width: var(--text-width);
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 800px) {
+    .burger{
+        display: block;
+    }
+
+    .nav__list{
+        display: none;
+    }
+}
