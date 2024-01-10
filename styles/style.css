@@ -9,6 +9,7 @@ body{
     padding: 0;
 
     --container-width: 1440px;
+    --pagesTitle-padding: 20px;
 }
 
 .container{
@@ -23,7 +24,7 @@ body{
 
 .content__wrapper .title{
     text-align: center;
-    padding: 20px;
+    padding: var(--pagesTitle-padding);
     background: #F3F7F2;
     border-radius: 4px;
 
@@ -36,4 +37,8 @@ body{
     line-height: 80px;
     font-size: 64px;
     font-weight: 400;
+}
+
+.main__title-container{
+    padding: var(--pagesTitle-padding);
 }
