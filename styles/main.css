@@ -27,3 +27,31 @@
     font-weight: 400;
     line-height: 64px;
 }
+
+.landing-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 100px;
+}
+
+.landing-container{
+    display: flex;
+    flex-direction: column;
+    background: #F2F8F8;
+    margin-left: 40px;
+}
+
+.third-container{
+    margin-top: 40px;
+}
+
+.landing__item{
+    padding: 30px 60px;
+}
+
+.landing__title{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px; /* 152.381% */
+}
