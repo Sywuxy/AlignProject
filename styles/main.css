@@ -35,7 +35,7 @@
     margin-top: 100px;
 }
 
-.landing-container{
+.pages__container{ /* landing container*/
     display: flex;
     flex-direction: column;
     background: #F2F8F8;
@@ -43,16 +43,37 @@
     margin-left: 40px;
 }
 
+.pages__margin{ /* third container*/ 
+    margin-top: 40px;
+}
+
 .third-container{
     margin-top: 40px;
 }
 
-.landing__item{
+.pages__space{ /*landing item*/
     padding: 30px 60px;
 }
 
-.landing__title{
+.pages__title{ /*landing title*/
     font-size: 26px;
     font-weight: 400;
     line-height: 32px;
+}
+
+.company-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-pages_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contact-container{
+    margin-top: 40px;
 }

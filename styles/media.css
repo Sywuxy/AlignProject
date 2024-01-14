@@ -38,13 +38,13 @@
 }
 
 @media (max-width:1132px) {
-    .landing__item{
+    .pages__space{
         padding: 30px 40px;
     }
 }
 
 @media (max-width:1052px) {
-    .landing__item{
+    .pages__space{
         padding: 30px 30px;
     }
 }
@@ -58,21 +58,21 @@
         margin-left: 0;
     }
 
-    .landing__item{
+    .pages__space{
         padding: 60px 60px;
     }
 
-    .landing__title{
+    .pages__title{
         font-size: 36px;
     }
 
-    .second-container{
+    .pages__margin-media{
         margin-top: 40px;
     }
 }
 
 @media (max-width:425px) {
-    .landing__item{
+    .pages__space{
         padding: 60px 10px;
     }
 }
@@ -82,7 +82,7 @@
         width: 320px;
     }
 
-    .landing__item{
+    .pages__space{
         padding: 10px 40px;
     }
 }
@@ -92,11 +92,11 @@
         width: 300px;
     }
 
-    .landing__item{
+    .pages__space{
         padding: 10px 5px;
     }
 
-    .landing__title{
+    .pages__title{
         font-size: 26px;
     }
 
