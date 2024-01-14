@@ -2,6 +2,7 @@
 
 html{
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -41,4 +42,24 @@ body{
 
 .main__title-container{
     padding: var(--pagesTitle-padding);
+}
+
+.upBtn{
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 60px;
+    height: 60px;
+
+    background-color: #153C3C;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 34px;
+    cursor: pointer;
 }

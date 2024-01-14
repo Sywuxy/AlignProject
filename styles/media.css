@@ -47,6 +47,11 @@
     .pages__space{
         padding: 30px 30px;
     }
+    
+    .company-pages_wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }
 
 @media (max-width:1051px) {
@@ -54,7 +59,7 @@
         grid-template-columns: 1fr;
     }
 
-    .landing-container{
+    .pages__container{
         margin-left: 0;
     }
 
@@ -78,7 +83,7 @@
 }
 
 @media (max-width:418px) {
-    .landing__image{
+    .pages__image{
         width: 320px;
     }
 
@@ -88,7 +93,7 @@
 }
 
 @media (max-width:320px) {
-    .landing__image{
+    .pages__image{
         width: 300px;
     }
 
