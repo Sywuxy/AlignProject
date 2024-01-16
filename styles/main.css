@@ -78,6 +78,27 @@
     margin-top: 40px;
 }
 
+.pages__button{
+    padding: 20px;
+    background-color: #153C3C;
+    color: #fff;
+
+    border: none;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s background-color;
+}
+
+.pages__button:hover{
+    background-color: pink;
+}
+
+.company__btn{
+    margin-top: 40px;
+}
+
 .pages__hiden{
     display: none;
 }

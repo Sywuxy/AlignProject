@@ -62,4 +62,9 @@ body{
     color: #fff;
     font-size: 34px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.upBtn:hover{
+    background-color: pink;
 }
