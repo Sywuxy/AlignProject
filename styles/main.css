@@ -77,3 +77,11 @@
 .contact-container{
     margin-top: 40px;
 }
+
+.pages__hiden{
+    display: none;
+}
+
+.pages__show{
+    display: block;
+}
