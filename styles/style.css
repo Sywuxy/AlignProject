@@ -68,3 +68,7 @@ body{
 .upBtn:hover{
     background-color: pink;
 }
+
+.upBtn.active{
+    display: none;
+}

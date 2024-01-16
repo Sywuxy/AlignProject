@@ -78,6 +78,25 @@
     margin-top: 40px;
 }
 
+.blog-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-pages_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+
+
+
+
 .pages__button{
     padding: 20px;
     background-color: #153C3C;
